@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+    min-height: 50px;
+    width: 100%;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.wrap {
+    background: lightgray;
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 200px;
+    min-width: 200px;
+    background: white;
+}
