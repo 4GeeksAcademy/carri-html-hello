@@ -1,28 +1,66 @@
-* {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
     margin: 0;
     padding: 0;
 }
 
-.header {
-    font-family: "Roboto", serif;
-    font-weight: 100;
-    font-style: normal;
-    min-height: 50px;
-    width: 100%;
-}
-
-.header h1 {
-    text-align: center;
-    margin: 10px;
-}
-
-.wrap {
-    background: lightgray;
-}
-
-.container {
-    font-family: 'Courier New', Courier, monospace;
-    min-height: 200px;
-    min-width: 200px;
+#title {
     background: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.photo-feed {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.photo-card {
+    min-height: 500px;
+    background: white;
+    min-width: 500px;
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.photo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.photo-tittle {
+    color: black;
+
+}
+
+.photo-date {
+    color: gray;
+    font-size: 12px;
+}
+
+.photo-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    height: auto;
+}
+
+.photo-description {
+    font-size: 18px;
+    color: black;
+    margin: 10px 0px 10px 0px;
 }
