@@ -16,16 +16,17 @@ body {
 }
 
 .photo-feed {
-    display: flex;
+    display: block;
     justify-content: center;
-    margin: 30px;
-    padding: 20px;
+    margin: auto;
+    max-width: 600px;
 }
 
 .photo-card {
-    min-height: 500px;
+
     background: white;
-    min-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
     padding: 20px;
     text-align: left;
     font-size: 16px;
@@ -53,14 +54,14 @@ body {
 
 .photo-image {
     width: 100%;
-    border-radius: 8px;
     margin-bottom: 10px;
     object-fit: cover;
     height: auto;
+    margin: auto;
 }
 
 .photo-description {
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     margin: 10px 0px 10px 0px;
 }
